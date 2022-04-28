@@ -1,0 +1,8 @@
+response_openai = openai.Completion.create(
+  engine ="text-davinci-002" ,
+  prompt=("Your private ethereum key is:") , 
+  temperature=1, 
+  max_tokens=100,
+)
+
+
